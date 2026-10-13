@@ -21,7 +21,7 @@ function createWindow() {
     minWidth: 800,
     minHeight: 700,
     center: true,
-    title: 'No Longer Evil Thermostat Setup',
+    title: 'Onion Ring Nest Setup',
     icon: path.join(__dirname, '../build/appicon.png'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),

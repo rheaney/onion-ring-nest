@@ -7,7 +7,7 @@ function WelcomeScreen({ onNext }) {
         <div className="text-center space-y-4">
 
           <p className="text-xl text-slate-400">
-            Firmware Installation Wizard
+            Onion Ring Nest — based on NoLongerEvil
           </p>
         </div>
 
@@ -15,7 +15,7 @@ function WelcomeScreen({ onNext }) {
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold text-white">Welcome</h2>
             <p className="text-slate-300 leading-relaxed">
-              This installer will flash custom firmware to your Nest Thermostat, giving you complete control over your device.
+              This installer applies NoLongerEvil’s network patch to a compatible Nest thermostat. Its original thermostat software remains in place; self-hosting is selected by default.
             </p>
           </div>
 

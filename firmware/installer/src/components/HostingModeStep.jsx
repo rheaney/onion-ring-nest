@@ -1,14 +1,14 @@
 import { useState } from 'react';
 
 function HostingModeStep({ onNext, onSkip }) {
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState('selfhosted');
 
   return (
     <div className="flex items-center justify-center min-h-full p-8">
       <div className="max-w-2xl w-full space-y-8">
         <div className="text-center space-y-2">
           <h1 className="text-3xl font-bold text-white">Setup Your Thermostat</h1>
-          <p className="text-slate-400">Choose how your thermostat will connect to the internet</p>
+          <p className="text-slate-400">Choose your thermostat server. Self-hosting keeps control on your own network.</p>
         </div>
 
         <div className="space-y-4">

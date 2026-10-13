@@ -81,7 +81,7 @@ function App() {
     <div className="w-full h-full bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
       {platform === 'darwin' && (
         <div className="app-drag w-full h-12 bg-slate-900/50 backdrop-blur-sm border-b border-slate-700/50 flex items-center justify-center px-4">
-          <h1 className="text-sm font-semibold text-slate-300">No Longer Evil Thermostat Setup</h1>
+          <h1 className="text-sm font-semibold text-slate-300">Onion Ring Nest Setup</h1>
         </div>
       )}
 

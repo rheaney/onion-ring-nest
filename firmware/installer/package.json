@@ -1,7 +1,7 @@
 {
-  "name": "nolongerevil-installer",
-  "version": "1.0.1",
-  "description": "NoLongerEvil Thermostat Firmware Installer",
+  "name": "onion-ring-nest-installer",
+  "version": "1.0.1-onion-ring.1",
+  "description": "Onion Ring local-first Nest installer, based on NoLongerEvil",
   "main": "electron/main.js",
   "author": "NoLongerEvil",
   "license": "MIT",
@@ -20,8 +20,8 @@
     "package:linux": "npm run build && electron-builder --linux --publish never"
   },
   "build": {
-    "appId": "com.nolongerevil.installer",
-    "productName": "NoLongerEvil Installer",
+    "appId": "com.onionringsandotherthings.nest.installer",
+    "productName": "Onion Ring Nest Installer",
     "directories": {
       "output": "dist"
     },
@@ -39,7 +39,7 @@
       "**/node_modules/cpu-features/**",
       "**/node_modules/ssh2/lib/protocol/crypto/build/**"
     ],
-    "artifactName": "nolongerevil-installer-${os}-${arch}.${ext}",
+    "artifactName": "onion-ring-nest-${version}-${os}-${arch}.${ext}",
     "mac": {
       "category": "public.app-category.utilities",
       "hardenedRuntime": true,
@@ -62,14 +62,7 @@
         "AppImage"
       ],
       "category": "Utility"
-    },
-    "publish": [
-      {
-        "provider": "github",
-        "owner": "codykociemba",
-        "repo": "NoLongerEvil-Thermostat"
-      }
-    ]
+    }
   },
   "dependencies": {
     "react": "^18.2.0",
